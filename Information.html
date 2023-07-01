@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<style>
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+
+    }
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+      margin:50px 20px
+    }
+    
+    .column img {
+     margin-top:8px;
+     padding:0px;
+      vertical-align: middle;
+      width: 100%;
+
+    
+      
+    }
+    .header{
+      
+     margin: 20px 200px; 
+     
+    }
+    .header h1{
+      font-size: 80px;
+      text-align: center;
+    }
+    .header p{
+      margin-left: 150px;
+      font-size:20px ;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    
+   
+    
+  
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    
+    
+    
+
+  
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 30px;
+    /* justify-content: left; */
+    position:fixed;
+    z-index: 1;
+    
+  }
+  
+  .sidenav a {
+    padding: 6px 100px 30px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+ 
+</style>
+    <div class="sidenav">
+        <a href="./Home.html">Home</a>
+        <a href="./Guide.html">Guide</a>
+        <a href="./Information.html">Information</a>
+        <a href="./Contact Us.html">Contact us</a>
+     
+      </div>
+      <div class="header">
+        <h1>Lorem Ipsem</h1>
+        <p>Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. Nutrients provide the energy our bodies need to function.</p>
+        <br>
+        <p>The energy in food is measured in units called calories. Age, sex, weight, height, and level of activity determine the number of calories a person needs each day. Depending on age, sex, and activity level, the recommended daily caloric intake for a child aged 11 to 14 can range anywhere from 1,600 to 2,600 calories per day, with sedentary girls needing the fewest calories and active boys needing the most. For adults, this can range from 1,800 to about 3,000.</p>
+      </div>
+     <div class="row">
+      <div class="column">
+        <img src="images (1).jpeg">
+        <img src="some.jpeg">
+        
+
+      </div>
+      <div class="column">
+        <img src="download (1).jpeg">
+        <img src="pexels-chan-walrus-958545.jpg">
+      </div>
+     </div>
+     
+      
+      
+      
+    </body>
+        
+      </html>
